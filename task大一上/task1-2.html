@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .g{
+            background-color: #F7F7F7;
+        }
+        td{
+            border: solid 1px #EBEBEB;
+        }
+    button{
+        width: 80px;
+        height: 40px;
+        
+    }
+    
+    </style>
+</head>
+<body>
+    <table  width="500" height="300">
+        <caption><strong>运费详情<strong></caption>
+    <thead class="g">
+        <td >区域</td>
+        <td>寄达地</td>
+        <td >首重（元/1000g）</td>
+        <td >续重（元/1000g）</td>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2" class="g">一区</td><td>浙江、上海、江苏</td><td>6</td><td>1</td>
+        </tr>
+        <tr>
+            <td>江西、安徽</td><td>7</td><td>1</td>
+        </tr>
+        <tr>
+            <td class="g">二区</td><td>吉林、黑龙江、云南</td><td>10</td><td>1</td>
+        </tr>
+        <tr>
+            <td class="g">三区</td><td>新疆、西藏</td><td>15</td><td>10</td>
+        </tr>
+    </tbody>
+    </table>   
+    <br><br><br>
+
+
+    
+    <form >
+        头像 <input type="file" >
+        <br><br>
+        昵称 <input type="text" >
+        <br><br>
+        学历 <select >
+            <option selected>大专</option>
+            <option >本科</option>
+        </select>
+        <br><br>
+        性别 <label ><input type="radio" name="sex" >男</label>
+        <label ><input type="radio" name="sex" >女</label>
+        <br><br>
+        爱好 <label ><input type="checkbox" checked>电影</label>
+        <label ><input type="checkbox" >摄影</label>
+        <label >  <input type="checkbox" >音乐</label>
+        <label ><input type="checkbox" checked>阅读</label>
+        <br><br>
+        签名 <br>
+        <textarea id="" cols="30" rows="10"></textarea>
+        <br>
+       <button>保存</button>
+    </form>     
+</body>
+</html>
